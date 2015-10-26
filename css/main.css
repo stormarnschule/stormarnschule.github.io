@@ -1,6 +1,6 @@
 html {
 	font-family: 'Open Sans', sans-serif;
-	background-image: url('../img/background.jpg');
+	background-image: url('/img/background.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: 100%;
@@ -29,6 +29,10 @@ section.grid:after {
 }
 	
 section.grid article {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	
 	width: 50%;
 	height: 200px;
 	float: left;
